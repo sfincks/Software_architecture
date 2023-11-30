@@ -3,6 +3,6 @@ package Hw2.RewardApp.Product;
 public class Silver extends ItemReward{
     @Override
     public void open() {
-        System.out.println("Silver!");
+        System.out.println("[C]Silver!");
     }
 }

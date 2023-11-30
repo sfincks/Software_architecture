@@ -11,20 +11,33 @@ import java.util.concurrent.ThreadLocalRandom;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        List<ItemGenerator> generators = new ArrayList<>();
+        List<ItemGenerator> commonGenerator = new ArrayList<>();
+        List<ItemGenerator> rareGenerator = new ArrayList<>();
+        List<ItemGenerator> epicGenerator = new ArrayList<>();
 
-        generators.add(new GoldGenerator());
-        generators.add(new GemGenerator());
-        generators.add(new BowGenerator());
-        generators.add(new SwordGenerator());
-        generators.add(new SilverGenerator());
-        generators.add(new GoodLegendaryCharacterGenerator());
-        generators.add(new TrashLegendaryCharacterGenerator());
+        rareGenerator.add(new GoldGenerator());
+        epicGenerator.add(new GemGenerator());
+        commonGenerator.add(new BowGenerator());
+        commonGenerator.add(new SwordGenerator());
+        commonGenerator.add(new SilverGenerator());
+        commonGenerator.add(new GoodLegendaryCharacterGenerator());
+        commonGenerator.add(new TrashLegendaryCharacterGenerator());
 
         Random random = ThreadLocalRandom.current();
-        for (int i = 0; i < 20; i++) {
-            int index = random.nextInt(generators.size());
-            generators.get(index).openReward();
+        int commonChances = commonGenerator.size() * 10;
+        int rareChances = rareGenerator.size() * 3;
+        int epicChances = epicGenerator.size();
+        int chances = commonChances + rareChances + epicChances;
+//        System.out.println(commonChances+" "+rareChances+" "+epicChances+" "+chances);
+        for (int i = 0; i < 10; i++) {
+            int index = random.nextInt(chances);
+            if (index < commonChances) {
+                commonGenerator.get(random.nextInt(commonGenerator.size())).openReward();
+            } else if (commonChances < index && index < commonChances + rareChances) {
+                rareGenerator.get(random.nextInt(rareGenerator.size())).openReward();
+            } else {
+                epicGenerator.get(random.nextInt(epicGenerator.size())).openReward();
+            }
         }
 
     }

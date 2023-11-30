@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d121cbdc-0a88-4fa5-9512-d02eb14c8e0a" name="Changes" comment="First item implementation">
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GoodLegendaryCharacterGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/SilverGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/SwordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/TrashLegendaryCharacterGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/GoodLegendaryCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Silver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/TrashLegendaryCharacter.java" afterDir="false" />
+    <list default="true" id="d121cbdc-0a88-4fa5-9512-d02eb14c8e0a" name="Changes" comment="Five items added">
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Controller/ChanceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product/gold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701355993869</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Five items added">
+      <created>1701356808886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701356808886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +121,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="Hw2 start" />
     <MESSAGE value="First item implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="First item implementation" />
+    <MESSAGE value="Five items added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Five items added" />
   </component>
 </project>
