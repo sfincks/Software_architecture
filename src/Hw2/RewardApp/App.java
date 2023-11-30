@@ -1,9 +1,6 @@
 package Hw2.RewardApp;
 
-import Hw2.RewardApp.Fabric.BowGenerator;
-import Hw2.RewardApp.Fabric.GemGenerator;
-import Hw2.RewardApp.Fabric.GoldGenerator;
-import Hw2.RewardApp.Fabric.ItemGenerator;
+import Hw2.RewardApp.Fabric.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,10 +16,14 @@ public class App {
         generators.add(new GoldGenerator());
         generators.add(new GemGenerator());
         generators.add(new BowGenerator());
+        generators.add(new SwordGenerator());
+        generators.add(new SilverGenerator());
+        generators.add(new GoodLegendaryCharacterGenerator());
+        generators.add(new TrashLegendaryCharacterGenerator());
 
         Random random = ThreadLocalRandom.current();
-        for (int i = 0; i < 10; i++) {
-            int index = random.nextInt(3);
+        for (int i = 0; i < 20; i++) {
+            int index = random.nextInt(generators.size());
             generators.get(index).openReward();
         }
 

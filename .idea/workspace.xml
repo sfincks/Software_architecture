@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d121cbdc-0a88-4fa5-9512-d02eb14c8e0a" name="Changes" comment="Hw2 start">
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/BowGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Bow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Product/gold.java" afterDir="false" />
+    <list default="true" id="d121cbdc-0a88-4fa5-9512-d02eb14c8e0a" name="Changes" comment="First item implementation">
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GoodLegendaryCharacterGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/SilverGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/SwordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/TrashLegendaryCharacterGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/GoodLegendaryCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Silver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/TrashLegendaryCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GemGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GemGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GoldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GoldGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/ItemGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/ItemGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Interface/iGameItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Interface/iGameItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/ItemReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/ItemReward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product/gold.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701353587313</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First item implementation">
+      <created>1701355993869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701355993869</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +120,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="Hw2 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hw2 start" />
+    <MESSAGE value="First item implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="First item implementation" />
   </component>
 </project>
