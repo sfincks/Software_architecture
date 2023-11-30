@@ -4,20 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d121cbdc-0a88-4fa5-9512-d02eb14c8e0a" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/src/Fabric/GemGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/src/Fabric/GoldGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/src/Fabric/ItemGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/src/Interface/iGameItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/src/Product/Gem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/src/Product/Gold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/src/Product/ItemReward.java" afterDir="false" />
+    <list default="true" id="d121cbdc-0a88-4fa5-9512-d02eb14c8e0a" name="Changes" comment="Hw2 start">
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/BowGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Bow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Product/gold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GemGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GemGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GoldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/GoldGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/ItemGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Fabric/ItemGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Interface/iGameItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Interface/iGameItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/ItemReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/ItemReward.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +57,16 @@
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Hw2.RewardApp.Product" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Hw2.RewardApp.Product" />
+      <recent name="Product" />
+      <recent name="Hw2.RewardApp.Fabric" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701341560113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Hw2 start">
+      <created>1701353587313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701353587313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Hw2 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hw2 start" />
   </component>
 </project>

@@ -1,12 +1,11 @@
-package Fabric;
+package Hw2.RewardApp.Fabric;
 
-import Interface.iGameItem;
+import Hw2.RewardApp.Interface.iGameItem;
 
 public abstract class ItemGenerator {
     public abstract iGameItem createItem();
-    
-    public void openReward()
-    {
+
+    public void openReward() {
         createItem().open();
     }
 }

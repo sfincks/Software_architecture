@@ -1,6 +1,6 @@
-package Product;
+package Hw2.RewardApp.Product;
 
-import Interface.iGameItem;
+import Hw2.RewardApp.Interface.iGameItem;
 
 public abstract class ItemReward implements iGameItem {
     

@@ -1,11 +1,10 @@
-package Fabric;
+package Hw2.RewardApp.Fabric;
 
-import Interface.iGameItem;
-import Product.Gold;
+import Hw2.RewardApp.Interface.iGameItem;
+import Hw2.RewardApp.Product.Gold;
 
 public class GoldGenerator extends ItemGenerator {
 
-    @Override
     public iGameItem createItem() {
         return new Gold();
     }

@@ -1,13 +1,11 @@
 package Hw2.RewardApp.Fabric;
 
 import Hw2.RewardApp.Interface.iGameItem;
-import Hw2.RewardApp.Product.Gem;
+import Hw2.RewardApp.Product.Bow;
 
-public class GemGenerator extends ItemGenerator {
-
+public class BowGenerator extends ItemGenerator{
     @Override
     public iGameItem createItem() {
-        return new Gem();
+        return new Bow();
     }
-
 }

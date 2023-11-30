@@ -1,10 +1,8 @@
 package Hw2.RewardApp.Product;
 
-public class Gem extends ItemReward {
-
+public class Bow extends ItemReward{
     @Override
     public void open() {
-        System.out.println("Gem!");
+        System.out.println("Bow!");
     }
-
 }
