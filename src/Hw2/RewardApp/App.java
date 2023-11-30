@@ -29,13 +29,13 @@ public class App {
         int epicChances = epicGenerator.size();
         int chances = commonChances + rareChances + epicChances;
 //        System.out.println(commonChances+" "+rareChances+" "+epicChances+" "+chances);
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             int index = random.nextInt(chances);
             if (index < commonChances) {
                 commonGenerator.get(random.nextInt(commonGenerator.size())).openReward();
             } else if (commonChances < index && index < commonChances + rareChances) {
                 rareGenerator.get(random.nextInt(rareGenerator.size())).openReward();
-            } else {
+            } else if (index >= commonChances + rareChances) {
                 epicGenerator.get(random.nextInt(epicGenerator.size())).openReward();
             }
         }

@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d121cbdc-0a88-4fa5-9512-d02eb14c8e0a" name="Changes" comment="Five items added">
-      <change afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Controller/ChanceController.java" afterDir="false" />
+    <list default="true" id="d121cbdc-0a88-4fa5-9512-d02eb14c8e0a" name="Changes" comment="Gacha protytype">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Bow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/Gold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/ItemReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw2/RewardApp/Product/ItemReward.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701356808886</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Gacha protytype">
+      <created>1701359463189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701359463189</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +132,7 @@
     <MESSAGE value="Hw2 start" />
     <MESSAGE value="First item implementation" />
     <MESSAGE value="Five items added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Five items added" />
+    <MESSAGE value="Gacha protytype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gacha protytype" />
   </component>
 </project>
