@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d121cbdc-0a88-4fa5-9512-d02eb14c8e0a" name="Changes" comment="hw5 Uml completed?">
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Adapters/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Adapters/MovieReviewsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Adapters/UserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Application/MovieApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Application/MovieUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Domain/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Domain/MovieReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Domain/MovieSearchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Ports/iFetchMovieReviews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Ports/iPrintMovieReviews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/HEX/Ports/iUserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/Hw6_use_case_hospital.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hw6/hw6-erd-hospital.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw8/Hw8_erd_restaurant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hw8/Hw8_ui_ux_restaurant.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2YtNrVSNuaSMwh39U3OLJZzDc5O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,13 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
