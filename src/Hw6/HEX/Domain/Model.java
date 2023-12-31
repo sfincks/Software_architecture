@@ -13,6 +13,7 @@ public class Model {
     {
         movieApp.accept(userCommand);
     }
+    // movieApp принимает команду пользователя
 }
 
 

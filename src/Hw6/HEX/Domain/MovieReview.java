@@ -10,9 +10,10 @@ public class MovieReview {
         this.movieScore = v;
         this.remark = excellent;
     }
-
+    // закрепляется система отзывов
     @Override
     public String toString() {
         return  " " +movieScore +" "+ remark;
     }
+    // и переписывается печать отзыва
 }
